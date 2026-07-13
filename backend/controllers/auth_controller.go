@@ -65,7 +65,7 @@ func Register(c *gin.Context){
 
 	c.JSON(http.StatusCreated, gin.H{
 		"success" : true,
-		"message" : "User registered",
+		"message" : "User registered successfully",
 		"data" : UserResponse{
 			ID:			user.ID,
 			Name:		user.Name,
