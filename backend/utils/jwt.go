@@ -13,7 +13,7 @@ var jwtSecret = []byte(getJWTSecret())
 func getJWTSecret() string{
 	secret := os.Getenv("JWT_SECRET")
 	if secret == "" {
-		return "rahasia_super_aman_2025"
+		return "rahasia_super_aman_2026"
 	}
 
 	return secret
